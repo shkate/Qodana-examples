@@ -4,6 +4,7 @@ public class HelloWorld {
     }
 
     public void unusedParameter(String s) {
+        if(true) {}
         System.out.println("Hello world!");
     }
 }
