@@ -20,6 +20,13 @@ public class HelloWorld {
             System.out.println("Hello world!");   
         }
     }
+    
+    public void unusedParameterWithAlwaysTrueClosureAnTryCatch2(String s) {
+        try {
+         if(true) {}
+            System.out.println("Hello world!");   
+        }
+    }
 
     public static void main(String[] args) {
         System.out.println(new HelloWorld().sameReturnValue("hi"));
