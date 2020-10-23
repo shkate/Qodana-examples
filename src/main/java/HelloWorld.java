@@ -18,7 +18,7 @@ public class HelloWorld {
         try {
          if(true) {}
             System.out.println("Hello world!");   
-        }
+        }catch(Exception e) {}
     }
 
     public static void main(String[] args) {
