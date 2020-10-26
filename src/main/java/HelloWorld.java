@@ -16,7 +16,6 @@ public class HelloWorld {
     
     public void unusedParameterWithAlwaysTrueClosureAnTryCatch(String s) {
         try {
-         if(true) {}
             System.out.println("Hello world!");   
         }catch(Exception e) {}
     }
