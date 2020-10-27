@@ -10,7 +10,6 @@ public class HelloWorld {
     }
     
     public void unusedParameterWithAlwaysTrueClosure(String s) {
-        if(true) {}
         System.out.println("Hello world!");
     }
     
