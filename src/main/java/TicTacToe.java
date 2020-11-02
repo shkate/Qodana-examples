@@ -31,11 +31,6 @@ public class TicTacToe {
         inO = input.nextInt();
         while (true) {
             switch (inO) {
-                case 1:
-                    if (a1 == "1") {
-                        a1 = "O";
-                    }
-                    break;
                 case 2:
                     if (a2 == "2") {
                     a2 = "O";
