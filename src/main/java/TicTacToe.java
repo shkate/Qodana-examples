@@ -9,8 +9,6 @@ public class TicTacToe {
      */
     public static void main(String[] args) throws InterruptedException {
         Scanner input = new Scanner(System.in);
-        try {
-        } catch(Exception e) {}
             
         String a1 = "1";
         String a2 = "2";
