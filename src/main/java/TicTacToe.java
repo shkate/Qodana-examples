@@ -10,7 +10,7 @@ public class TicTacToe {
     public static void main(String[] args) throws InterruptedException {
         Scanner input = new Scanner(System.in);
         try {
-           
+           System.out.printf("Heh");
         } catch(Exception e) {}
             
         String a1 = "1";
