@@ -15,6 +15,7 @@ public class AirlineProblem {
             System.out.println("Could not connect to file airlines.txt.");
             System.exit(0);
         }
+        System.out.println("Could not connect to file airlines.txt.");
         if(scannerToReadAirlines != null){
             ArrayList<Airline> airlinesPartnersNetwork = new ArrayList<Airline>();
             Airline newAirline;
