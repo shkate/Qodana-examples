@@ -9,7 +9,7 @@ public class URLExpSimple {
     
     public static void main(String[] args) {
         try {
-            URL mySite = new URL("http://www.cs.utexas.edu/~scottm");
+            URL mySite = new URL("http://www.cs.uteas.edu/~scottm");
             URLConnection yc = mySite.openConnection();
             Scanner in = new Scanner(new InputStreamReader(yc.getInputStream()));
             int count = 0;
