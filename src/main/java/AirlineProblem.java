@@ -12,7 +12,6 @@ public class AirlineProblem {
             scannerToReadAirlines = new Scanner(new File("airlines.txt"));
         }
         catch(IOException e){
-            System.out.println("Could not connect to file airlines.txt.");
             System.exit(0);
         }
         System.out.println("Could not connect to file airlines.txt.");
