@@ -9,6 +9,11 @@ public class HelloWorld {
         System.out.println("Hello world!");
     }
     
+     public void uglyMethod(String s) {
+        if(true) {}
+        System.out.println("Ugly Method");
+    }
+    
     public void unusedParameterWithAlwaysTrueClosure(String s) {
         if(true) {}
         System.out.println("Hello world!");
