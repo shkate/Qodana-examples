@@ -13,6 +13,11 @@ public class HelloWorld {
         if(true) {}
         System.out.println("Hello world!");
     }
+    
+    public void uglyNameForUglyMethod(String s) {
+        if(true) {}
+        System.out.println("Hello world!");
+    }
 
     public static void main(String[] args) {
         System.out.println(new HelloWorld().sameReturnValue("hi"));
